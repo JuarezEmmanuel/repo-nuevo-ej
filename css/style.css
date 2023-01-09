@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(1, 21, 39);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 241, 243);
+}
+
+ul li{
+    list-style-type: none;
+    background-color: rgb(1, 21, 39);
+    padding: 5px;
+    margin: 10px;
+}
+
+
+section{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(228, 207, 212);
+    background-color: rgb(1, 21, 39);
+    
+}
+.fondo{
+    width: 100%;
+
+}
+.redes{
+
+    display: flex;
+    background-color: rgb(1, 21, 39);
+    padding-top: 69px;
+
+}
+
+.servicios-industriales{
+    
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.proyecto-mecatronica{
+    background-color: rgb(1, 21, 39);
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-wrap: wrap;    
+    display: flex;
+    justify-content: center;
+
+}
+
+.empresa{
+    padding-top: 60px;
+    padding-bottom: 600px;
+}
+
+.cordoba{
+    background-color: rgb(1, 21, 39);
+    padding-left: 239px;
+    padding-right: 239px;
+    padding-top: 140px;
+    padding-bottom: 110px;
+
+}
